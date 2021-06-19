@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Compiling Artifacts
+*.tlog/
+*.exe.recipe
+*.vcxproj.FileListAbsolute.txt
+
 # User-specific files
 *.rsuser
 *.suo
