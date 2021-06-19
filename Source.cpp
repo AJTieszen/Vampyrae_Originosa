@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
-sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Test");
+sf::RenderWindow window(sf::VideoMode(512, 448), "SFML Test");
 
 int main()
 {
