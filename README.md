@@ -15,6 +15,6 @@
   + data files
 
 ## Programmers:
-  + multimedia library (dependency)
-    download & instructions available at: https://www.sfml-dev.org/
+  + multimedia library (dependency)  
+    download & instructions available at: https://www.sfml-dev.org/  
     
