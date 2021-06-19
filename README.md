@@ -17,4 +17,4 @@
 ## Programmers:
   + multimedia library (dependency)  
     download & instructions available at: https://www.sfml-dev.org/  
-    Windows and linux versions are included in GitHub repo  
+    Windows and Linux versions are included in GitHub repo  
