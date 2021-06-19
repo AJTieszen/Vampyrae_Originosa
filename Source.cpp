@@ -1,5 +1,5 @@
 // Please make sure SFML Libs (see https://www.sfml-dev.org/) are included in your compiler toolchain
-// and SFML DLL files are in release folder.
+// and SFML DLL files are in the release folder (for Windows).
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
