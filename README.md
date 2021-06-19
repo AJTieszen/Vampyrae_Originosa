@@ -1,20 +1,20 @@
 # Vampyrae_Originosa
 
-##General Users:
+## General Users:
   + download instructions (stable release)
     
   + download instructions (latest build)
     
   + controls
 
-##Tinkerers:
+## Tinkerers:
   + graphics
   
   + music & sound effects
   
   + data files
 
-##Programmers:
+## Programmers:
   + multimedia library (dependency)
     download & instructions available at: https://www.sfml-dev.org/
     
