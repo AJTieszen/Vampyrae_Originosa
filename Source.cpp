@@ -11,18 +11,13 @@ using namespace std;
 // Functions
 
 // Create Window
-sf::RenderWindow window(sf::VideoMode(512, 448), "SFML Test");
+sf::RenderWindow window(sf::VideoMode(512, 448), "Vampyrae Originosa");
 
 // Graphics
-sf::Texture tileset[4];
 
 int main()
 {
 	// Load Graphics
-	if (!tileset[0].loadFromFile("Tiles/Test Tileset.png"))
-	{
-		throw("Unable to load file: Tiles/Test Tileset.png");
-	}
 
 	while (window.isOpen())
 	{
@@ -35,8 +30,8 @@ int main()
 			}
 		}
 
-		// Code Here
+		window.clear(sf::Color::Black);
 
-
+		window.display();
 	}
 }
