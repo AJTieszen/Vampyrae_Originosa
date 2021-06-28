@@ -13,8 +13,17 @@ using namespace std;
 // Create Window
 sf::RenderWindow window(sf::VideoMode(512, 448), "SFML Test");
 
+// Graphics
+sf::Texture tileset[4];
+
 int main()
 {
+	// Load Graphics
+	if (!tileset[0].loadFromFile("Tiles/Test Tileset.png"))
+	{
+		throw("Unable to load file: Tiles/Test Tileset.png");
+	}
+
 	while (window.isOpen())
 	{
 		sf::Event event;
