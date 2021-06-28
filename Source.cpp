@@ -4,6 +4,13 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
+using namespace std;
+
+// Variables
+
+// Functions
+
+// Create Window
 sf::RenderWindow window(sf::VideoMode(512, 448), "SFML Test");
 
 int main()
@@ -18,5 +25,7 @@ int main()
 				window.close();
 			}
 		}
+
+		// Code Here
 	}
 }
