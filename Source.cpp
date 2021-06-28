@@ -21,6 +21,7 @@ int main()
 {
 	// Load Graphics
 	if (!tileset[0].loadFromFile("Tiles/Test Tileset.png")) throw("Unable to load file: Tiles/Test Tileset.png");
+	tile.setTexture(tileset[0]);
 
 	while (window.isOpen())
 	{
@@ -34,6 +35,8 @@ int main()
 		}
 
 		window.clear(sf::Color::Black);
+
+		window.draw(tile);
 
 		window.display();
 	}
