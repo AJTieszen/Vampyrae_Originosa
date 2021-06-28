@@ -14,10 +14,13 @@ using namespace std;
 sf::RenderWindow window(sf::VideoMode(512, 448), "Vampyrae Originosa");
 
 // Graphics
+sf::Sprite tile;
+sf::Texture tileset[4];
 
 int main()
 {
 	// Load Graphics
+	if (!tileset[0].loadFromFile("Tiles/Test Tileset.png")) throw("Unable to load file: Tiles/Test Tileset.png");
 
 	while (window.isOpen())
 	{
